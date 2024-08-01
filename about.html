@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about</title>
+
+     <!--Facicon-->
+     <link rel="icon" href="images/icon.ico" type="image/x-icon">
+
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+   <style>
+
+      @font-face {
+         font-family: 'deephero';
+         src: url('fonts/deephero.otf') format('opentype');
+         font-weight: normal;
+         font-style: normal;
+      }
+      
+      @font-face {
+         font-family: 'goodbrush';
+         src: url('fonts/goodbrush.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+      }
+      @font-face {
+         font-family: 'brushking';
+         src: url('fonts/brushking.otf') format('opentype');
+         font-weight: normal;
+         font-style: normal;
+      }
+      /* css for popups starts here */
+
+      .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 600px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .popup-content {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .popup .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+      /* css for popups ends here */
+      
+      </style>
+      <!-- header section starts  -->
+      
+      <section class="header">
+      
+         <a href="home.html" class="logo"  style="font-family: 'brushking'; font-size: 10px; color: #8e44ad;">Chantel Sip and Paint</a>
+         
+         <nav class="navbar">
+            
+              
+           </div>
+            <a href="index.html" style="font-family: 'goodbrush';">home</a>
+            <a href="about.html" style="font-family: 'goodbrush';">about</a>
+            <a href="package.html" style="font-family: 'goodbrush';">packages</a>
+            <a href="book.html" style="font-family: 'goodbrush';">book</a>
+         </nav>
+      
+         <div id="menu-btn" class="fas fa-bars"></div>
+      
+      </section>
+      
+      <!-- header section ends -->
+
+<div class="heading" style="background:url(images/bg14.jpg) no-repeat">
+   <h1>about us</h1>
+</div>
+
+<!-- about section starts  -->
+
+<section class="about">
+
+   <div class="image">
+      <img src="images/bg15.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 style="font-family: goodbrush;">why choose us?</h3>
+
+      <p style="font-size: 12px; color: black;">At Chantel Sip and Paint, we believe that art should be accessible and enjoyable for all.
+          Our friendly instructors guide you step-by-step through the painting process,
+           ensuring that even beginners can create beautiful artwork. All materials are provided, 
+           so all you need to bring is your enthusiasm and a desire to have a great time.</p>
+      <p style="font-size: 12px; color: black;">Our events are perfect for all occasions, from birthdays and anniversaries to team-building activities and date nights. 
+            Each session is crafted to provide a memorable experience filled with laughter, relaxation, and artistic expression. 
+            Come alone or bring your friends and family – everyone is welcome at Chantel Sip and Paint.</p>
+      <div class="icons-container">
+         <div class="icons">
+            <i class="fas fa-life-ring"></i>
+            <span style="font-size: 14px;">Guidance & Support</span>
+         </div>
+         <div class="icons">
+            <i class="fas fa-hand-holding-usd"></i>
+            <span style="font-size: 14px;">affordable price</span>
+         </div>
+         <div class="icons">
+            <i class="fas fa-cubes"></i>
+            <span style="font-size: 14px;">Diverse Activities</span>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- reviews section starts  -->
+
+
+
+<!-- reviews section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="package.html"> <i class="fas fa-angle-right"></i> package</a>
+         <a href="book.html"> <i class="fas fa-angle-right"></i> book</a>
+      </div>
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#" id="privacy-policy-link"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#" id="terms-of-use-link"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="tel:+263786548139"> <i class="fas fa-phone"></i> +263-78-654-8139 </a>
+         <a href="tel:+447721339025"> <i class="fas fa-phone"></i> +44-77-213-39025 </a>
+         <a href="mailto:csp.buis@outlook.com"><i class="fas fa-envelope"></i> csp.buis@outlook.com </a>
+         <a href="https://www.google.com/maps/dir/52.2420224,0.1081344/12+Maasdorp+Avenue,+Harare,+Zimbabwe/" target="_blank"><i class="fas fa-map"></i> 12 Maasdrop Belgravia, Harare </a>
+
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Edward Oviasogie</span> | all rights reserved! </div>
+
+</section>
+
+<!-- popups start here -->
+<div class="popup-overlay" id="popup-overlay"></div>
+
+<div class="popup" id="privacy-policy-popup">
+   <span class="close-btn" id="close-popup">&times;</span>
+   <div class="popup-content">
+       <h2>Privacy Policy</h2>
+       <p><strong>Last Updated: 22/07/2024</strong></p>
+       <p>Welcome to Chantel Sip and Paint. We are committed to protecting your privacy and ensuring that
+          your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, 
+          use, and protect your personal information when you visit our website.</p>
+       <h3>1. Information We Collect</h3>
+       <p>We collect the following types of information from our users:</p>
+       <ul>
+           <li><strong>Personal Information:</strong> When you contact us via our contact form, we collect your name,
+             email address, phone number, subject, and message.</li>
+           <li><strong>Non-Personal Information:</strong> We may collect non-personal information about your visit,
+             such as your IP address, browser type, operating system, and browsing behavior.</li>
+       </ul>
+       <h3>2. How We Use Your Information</h3>
+       <p>We use the information we collect for the following purposes:</p>
+       <ul>
+           <li><strong>To Respond to Your Inquiries:</strong> 
+            We use your personal information to respond to your 
+            messages and provide you with the information or services you request.</li>
+           <li><strong>To Improve Our Website:</strong> We use non-personal information 
+            to understand how our website is used and to make improvements.</li>
+       </ul>
+       <h3>3. Information Sharing and Disclosure</h3>
+       <p>We do not share your personal information with third parties, except in the following circumstances:</p>
+       <ul>
+           <li><strong>With Your Consent:</strong> We may share your information if you have given us explicit consent to do so.</li>
+           <li><strong>Legal Requirements:</strong> We may disclose
+             your information if required to do so by law or in response to a valid request from a law enforcement agency.</li>
+       </ul>
+       <h3>4. Cookies</h3>
+       <p>Our website may use cookies to enhance your browsing experience.
+          Cookies are small data files that are stored on your device. 
+          You can choose to disable cookies through your browser settings, 
+          but this may affect the functionality of our website.</p>
+       <h3>5. Security</h3>
+       <p>We take the security of your personal information seriously and use reasonable measures to protect it
+          from unauthorized access, disclosure, alteration, or destruction. However, no internet transmission 
+          is ever completely secure, and we cannot guarantee the security of your information.</p>
+       <h3>6. Third-Party Links</h3>
+       <p>Our website may contain links to third-party websites.
+          We are not responsible for the privacy practices or the content of these external sites.
+           We encourage you to read the privacy policies of any third-party websites you visit.</p>
+       <h3>7. Your Rights</h3>
+       <p>You have the right to access, correct,
+          or delete your personal information that we hold. If you would like to exercise these rights, 
+          please contact us at: <a href="mailto:csp.buis@outlook.com"><i class="fas fa-envelope"></i> csp.buis@outlook.com </a> .</p>
+       <h3>8. Changes to This Privacy Policy</h3>
+       <p>We may update this Privacy Policy from time to time.
+          We will notify you of any changes by posting the new Privacy Policy on our website. 
+          You are advised to review this Privacy Policy periodically for any changes.</p>
+       <h3>9. Contact Us</h3>
+       <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+       <ul>
+           <li><strong>Phone: </strong><a href="tel:+263786548139"> <i class="fas fa-phone"></i> +263-78-654-8139 </a> or 
+            <a href="tel:+447721339025">
+            <i class="fas fa-phone"></i> +44-77-213-39025 </a></li>
+           <li><strong>Email: </strong>  <a href="mailto:csp.buis@outlook.com"><i class="fas fa-envelope"></i> csp.buis@outlook.com </a></li>
+           <li><strong>Address: </strong><a href="https://www.google.com/maps/dir/52.2420224,0.1081344/12+Maasdorp+Avenue,+Harare,+Zimbabwe/" 
+            target="_blank"><i class="fas fa-map"></i>12 Maasdrop Belgravia, Harare </a></li>
+       </ul>
+       <p>Thank you for visiting Chantel Sip and Paint. We value your privacy and are committed to
+          protecting your personal information.</p>
+   </div>
+</div>
+
+<div class="popup" id="terms-of-use-popup">
+   <span class="close-btn" id="close-popup-terms">&times;</span>
+   <div class="popup-content">
+       <h2>Terms of Use</h2>
+       <p><strong>Last Updated: 22/07/2024</strong></p>
+       <p>Welcome to Chantel Sip and Paint. By accessing and using our website,
+          you agree to comply with and be bound by the following terms and conditions. 
+          Please review these terms carefully. If you do not agree with these terms, you should not use our website.</p>
+       <h3>1. Acceptance of Terms</h3>
+       <p>By using our website, 
+         you agree to these Terms of Use and our Privacy Policy.
+          If you do not agree, please do not use our website.</p>
+       <h3>2. Changes to Terms</h3>
+       <p>We reserve the right to modify these terms at any time. 
+         Any changes will be effective immediately upon posting on our website. 
+         Your continued use of the website constitutes your acceptance of any changes.</p>
+       <h3>3. Use of the Website</h3>
+       <p>You agree to use our website for lawful purposes only. 
+         You may not use our website in any way that could damage, 
+         disable, overburden, or impair the site or interfere with any
+         other party's use and enjoyment of the website.</p>
+       <h3>4. Intellectual Property</h3>
+       <p>All content on our website, including text, graphics,
+          logos, images, and software, is the property of Chantel Sip and Paint or its content suppliers
+           and is protected by intellectual property laws. Unauthorized use of any content is prohibited.</p>
+       <h3>5. User Content</h3>
+       <p>By submitting any content to our website, you grant Chantel Sip and Paint a non-exclusive, 
+         royalty-free, perpetual, and worldwide license to use, reproduce, modify, and display such content. 
+         You represent and warrant that you own or have the necessary rights to grant this license.</p>
+       <h3>6. Links to Third-Party Sites</h3>
+       <p>Our website may contain links to third-party websites. 
+         We do not endorse and are not responsible for the content or practices of any third-party sites.
+          Your use of third-party websites is at your own risk.</p>
+       <h3>7. Disclaimers</h3>
+       <p>Our website is provided "as is" without any warranties of any kind, 
+         either express or implied. We do not warrant that the website will be uninterrupted or error-free.</p>
+       <h3>8. Limitation of Liability</h3>
+       <p>Chantel Sip and Paint will not be liable for any damages of any kind arising from the use of our website, 
+         including but not limited to direct, indirect, incidental, punitive, and consequential damages.</p>
+       <h3>9. Indemnification</h3>
+       <p>You agree to indemnify and hold Chantel Sip and Paint harmless from any claims, losses, liabilities, damages,
+          and expenses arising out of your use of our website or your violation of these terms.</p>
+       <h3>10. Contact Us</h3>
+       <p>If you have any questions or concerns about these Terms of Use, please contact us at:</p>
+       <ul>
+         <li><strong>Phone: </strong><a href="tel:+263786548139"> <i class="fas fa-phone"></i> +263-78-654-8139 </a> or 
+          <a href="tel:+447721339025">
+          <i class="fas fa-phone"></i> +44-77-213-39025 </a></li>
+         <li><strong>Email: </strong>  <a href="mailto:csp.buis@outlook.com"><i class="fas fa-envelope"></i> csp.buis@outlook.com </a></li>
+         <li><strong>Address: </strong><a href="https://www.google.com/maps/dir/52.2420224,0.1081344/12+Maasdorp+Avenue,+Harare,+Zimbabwe/" 
+          target="_blank"><i class="fas fa-map"></i>12 Maasdrop Belgravia, Harare </a></li>
+     </ul>
+       <p>Thank you for visiting Chantel Sip and Paint. We value your patronage and are committed to providing a safe and enjoyable experience.</p>
+   </div>
+</div>
+
+<!-- popups end here -->
+ 
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   const privacyPolicyLink = document.getElementById('privacy-policy-link');
+   const termsOfUseLink = document.getElementById('terms-of-use-link');
+   const privacyPolicyPopup = document.getElementById('privacy-policy-popup');
+   const termsOfUsePopup = document.getElementById('terms-of-use-popup');
+   const popupOverlay = document.getElementById('popup-overlay');
+   const closePopup = document.getElementById('close-popup');
+   const closePopupTerms = document.getElementById('close-popup-terms');
+
+   privacyPolicyLink.addEventListener('click', function(event) {
+       event.preventDefault();
+       privacyPolicyPopup.style.display = 'block';
+       popupOverlay.style.display = 'block';
+   });
+
+   termsOfUseLink.addEventListener('click', function(event) {
+       event.preventDefault();
+       termsOfUsePopup.style.display = 'block';
+       popupOverlay.style.display = 'block';
+   });
+
+   closePopup.addEventListener('click', function() {
+       privacyPolicyPopup.style.display = 'none';
+       popupOverlay.style.display = 'none';
+   });
+
+   closePopupTerms.addEventListener('click', function() {
+       termsOfUsePopup.style.display = 'none';
+       popupOverlay.style.display = 'none';
+   });
+
+   popupOverlay.addEventListener('click', function() {
+       privacyPolicyPopup.style.display = 'none';
+       termsOfUsePopup.style.display = 'none';
+       popupOverlay.style.display = 'none';
+   });
+</script>
+
+</body>
+</html>
